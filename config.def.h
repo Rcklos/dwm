@@ -20,12 +20,12 @@ static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#37474F";
 static const char col_border[]      = "#42A5F5";
 static const char *fonts[]          = {
-    "JetBrainsMono Nerd Font Mono:size=10:antialias=true:autohint=true",
-    "RobotoMono Nerd Font:size=10:antialias=true:autohint=true",
-    "Hack Nerd Font:size=10:antialias=true:autohint=true",
-    "BlexMono Nerd Font Mono:size=10:antialias=true:autohint=true",
-    "SauceCodePro Nerd Font Mono:size=10:antialias=true:autohint=true",
-    "JoyPixels:size=9:antialias=true:autohint=true" };
+    "JetBrainsMono Nerd Font Mono:size=14:antialias=true:autohint=true",
+    "RobotoMono Nerd Font:size=14:antialias=true:autohint=true",
+    "Hack Nerd Font:size=14:antialias=true:autohint=true",
+    "BlexMono Nerd Font Mono:size=14:antialias=true:autohint=true",
+    "SauceCodePro Nerd Font Mono:size=14:antialias=true:autohint=true",
+    "JoyPixels:size=12:antialias=true:autohint=true" };
 static const char dmenufont[]       = "SauceCodePro Nerd Font Mono:size=16";
 static const unsigned int baralpha = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
@@ -42,8 +42,8 @@ static const unsigned int alphas[][3]      = {
 
 /* tagging */
 // static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-// static const char *tags[] = { "一", "二", "三", "四", "五", "六", "七", "八", "九" };
-static const char *tags[] = { "\uf120", "\uf7ae", "\uf121", "\uf04b", "\ue62e", "\uf251", "\ue727", "\uf537", "\uf684" };
+static const char *tags[] = { "一", "二", "三", "四", "五", "六", "七", "八", "九" };
+// static const char *tags[] = { "\uf120", "\uf7ae", "\uf121", "\uf04b", "\ue62e", "\uf251", "\ue727", "\uf537", "\uf684" };
 
 
 static const Rule rules[] = {
