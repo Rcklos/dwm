@@ -1,2 +1,2 @@
 sudo make clean install
-rm -rf config.h *.rej *orig *.o
+rm -rf config.h *.rej *orig *.o dwm
